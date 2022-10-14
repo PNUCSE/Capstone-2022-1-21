@@ -84,3 +84,9 @@ NB: Some differences between below dot plots (e.g. sparseness of alignments) may
 	nucmer --maxmatch -l 80 -c 100 Brassica_rapa.faa Brassica_napus_rape.faa -p Brapa_Bnapus.nucmer
 	delta-filter -r Brapa_Bnapus.nucmer.delta > Brapa_Bnapus.nucmer.delta.filter
 	show-coords -c Brapa_Bnapus.nucmer.delta.filter > Brapa_Bnapus.nucmer.delta.filter.coords
+	
+Make dot plot:
+
+	../mummerCoordsDotPlotly.R -i Brapa_Bnapus.nucmer.delta.filter.coords -o Brapa_Bnapus.nucmer.plot -m 1000 -q 300000 -k 10 -s -t -l -p 12
+
+![Brapa_Bnapus nucmer plot](https://user-images.githubusercontent.com/83392181/195802562-528b79b0-15ea-4fae-ba26-6946ffaf1a1a.png)
