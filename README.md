@@ -18,6 +18,6 @@ Yerzhanov Zineden, yerzhanovz1003@gmail.com, 백앤드 개발
 # 3. 시스템 구성도
 
 <p align="center">
-<img width="500" alt="flow" src="https://user-images.githubusercontent.com/83392181/195792870-7ae34ea0-a972-4c6a-bda7-9215f738c2a0.png">
+<img width="500" alt="flow" src="https://user-images.githubusercontent.com/83392181/195792870-7ae34ea0-a972-4c6a-bda7-9215f738c2a0.png"><br>
 <em>Fig. 1. System structure</em>
 </p>
