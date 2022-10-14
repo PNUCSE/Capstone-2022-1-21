@@ -116,4 +116,6 @@ Alternatively, one could use the website that was made during this graduation pr
 3. Having done the previous two steps, one can use the website on their localhost server. Alternatively, they can upload it to a server run by CentOS or Linux, as was done during this project.
 4. To install this web application to a server, 'scp' and 'ftp' commands could be of help. 
 
+
+
 To see how the website works, follow the link 
