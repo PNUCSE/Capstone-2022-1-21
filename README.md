@@ -11,6 +11,6 @@ New Interactive Visualization System For Long Genome Sequences
 
 # 2. 팀 소개
 
-Kaztayeva Gulnaz, hulk@marvel.com, 프론트엔드 개발
+Kaztayeva Gulnaz, gulnazka191822@gmail.com, 프론트엔드 개발
 
 Yerzhanov Zineden, yerzhanovz1003@gmail.com, 백앤드 개발
