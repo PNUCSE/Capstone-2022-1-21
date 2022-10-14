@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+        background-color: white;
+        overflow-y: hidden;
+        display: flex;
+        height: 100vh;
+        margin: 0;
+        background-size: cover;
+    background-position: center;
+}
+
+
+
+#upper {
+    height: 15%;
+    text-align: center;
+    background-color: #2980B9;
+}
+
+#project-name {
+    color: white;
+    margin: 0;
+    padding-top: 15px;
+}
+    
+  
+a {
+    font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+    text-decoration: none;
+    font-size:90%;
+    color: #b3b3b3;
+}
+
+ul {
+    padding: 0;
+}
+    
+li {
+    list-style: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li:hover {
+    background-color: #8a8888;
+    cursor: pointer;
+}
+
+
+div h1 {
+    font-size:25px;
+}
+    
+p {
+    font-size: 20px;
+}
+
+.one {
+    height: 100%;
+    /* margin: -20px; */
+    border-right:  1px solid white;;
+    width: 20%;
+    background-color: #404040;
+    margin-top: 47px;
+    color: white;
+}
+
+
+
+.two {
+    border:  1px solid white;;
+    width:85%;
+    background-color: #f7f7f7;
+    height: 100%;
+    /*margin-top: 50px;*/
+}
+
+  #terminal{
+    margin-top: 1500px;
+    height: 10%;
+    width: 95%;
+  }
+
+
+.three
+{
+    height: 100%;
+    color: white;
+    background-color: #404040;
+    margin-top:  47px;
+    width: 270px;
+}
+
+
+
+.upload .inner {
+    position: relative;
+			z-index: 1;
+			margin: 0;
+			display: inline-block;
+			vertical-align: middle;
+}
+
+
+#middle{
+    margin-top: 10px;
+    height: 100px;
+}
+
+#middle p
+{
+    font-style: bold;
+    color: #2980B9;
+    margin-left: 10px;
+}
+#lower
+{
+    height: 100%;
+    margin-top: 10px;
+}
+
+#lower p
+{
+    color: #2980B9;
+    font-style: bold;
+    margin-left: 10px;
+}
+.upload .button {
+    display: inline-block;
+    border-radius: 100%;
+    width: 4.5em;
+    height: 4.5em;
+    line-height: 4.5em;
+    text-align: center;
+    font-size: 1.25em;
+    padding: 0;
+}
+
+.icon.circled {
+    position: relative;
+    display: inline-block;
+    background: #2b252c;
+    color: #fff;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+header .icon.circled {
+    margin: 0 0 2em 0;
+}
+
+.upload {
+    margin-top: 50px;
+    /*padding-left: 3%;*/
+    height:100%;
+    background-size: 100%;
+}
+
+
+#graph
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+
+  .topnav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+  .menu {
+  display: flex;
+}
+
+.menu button {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button_active {
+  color: teal;
+}
+
+.content_inside {
+  display: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.content_inside_active {
+  display: block;
+}
+
+#downloadBtn a
+{
+ text-decoration: none;
+ color: white;
+}
+
+
+
+ .slidingmenu {
+    overflow: hidden;
+    background-color: #f7f7f7;
+  }
+
+  .slidingmenu a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .ddrop {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .ddrop .btn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .slidingmenu:hover {
+    background-color: gray;
+  }
+
+  .ddrop-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    }
+
+  .ddrop-menu a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .ddrop-menu a:hover {
+    background-color: #ddd;
+  }
+
+  .ddrop:hover .ddrop-menu {
+    display: block;
+  }
+
+
