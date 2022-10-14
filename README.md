@@ -21,3 +21,5 @@ Yerzhanov Zineden, yerzhanovz1003@gmail.com, 백앤드 개발
 <img width="500" alt="flow" src="https://user-images.githubusercontent.com/83392181/195792870-7ae34ea0-a972-4c6a-bda7-9215f738c2a0.png"><br>
 <em>Fig. 1. System structure</em>
 </p>
+
+<p align="justify"> The main purpose of our visualization tool is to get a graph based on information obtained through files that are uploaded by the user (See Fig. 1). Therefore, after a successful connection, the user must choose to upload or download files. If the user is going to use the website for the first time, he must upload the necessary files, which will be processed and the result uploaded to the database. If she/he has already uploaded the files and wants to get the results, she/he must click on the download button next to the desired format. You can also see the result on the site itself, on the main part of the page a graph of the result of the last uploaded file will be displayed. </p>
