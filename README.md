@@ -90,3 +90,19 @@ Make dot plot:
 	../mummerCoordsDotPlotly.R -i Brapa_Bnapus.nucmer.delta.filter.coords -o Brapa_Bnapus.nucmer.plot -m 1000 -q 300000 -k 10 -s -t -l -p 12
 
 ![Brapa_Bnapus nucmer plot](https://user-images.githubusercontent.com/83392181/195802562-528b79b0-15ea-4fae-ba26-6946ffaf1a1a.png)
+<p align="center">
+<em>Fig. 2. Visualized data from mummer file</em>
+</p>
+
+### Minimap2 example
+
+	minimap2 -x asm5 Brassica_rapa.faa Brassica_napus_rape.faa > Brapa_Bnapus.minimap2.paf
+
+Make dot plot:
+
+	../pafCoordsDotPlotly.R -i Brapa_Bnapus.minimap2.paf -o Brapa_Bnapus.minimap2.plot -m 2000 -q 500000 -k 10 -s -t -l -p 12
+
+![Brapa_Bnapus minimap2 plot](https://user-images.githubusercontent.com/83392181/195803299-a862b6be-430f-4d8e-b4ef-a550309726a2.png)
+<p align="center">
+<em>Fig. 3. Visualized data from PAF file</em>
+</p>
