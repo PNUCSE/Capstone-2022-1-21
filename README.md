@@ -9,4 +9,8 @@ New Interactive Visualization System For Long Genome Sequences
 ## 목적: 
 <p align="justify"> The goal of this project is to implement a web platform that provides a user-friendly interface to users wishing to study different genome data without the need to manually run specific programs by themselves, so that even users without the knowledge of how to run terminal commands and install various packages that might be needed for the program execution could compare and analyze genome data. To do so, the programs were abstracted from the user interface, and only the file(s) provided by user is needed to produce an alignment file; hence, an upload function is sought for. In the process of developing a genome data visualization system, gathering information related to the field of comparative genomics and consequent comprehension and analysis of that very information is necessary and set as one of the goals for this project. As a result of this graduation project, it is wanted that a complete working product is built and utilized in real life. Finally, working on this project is thought to help gain experience of making a project in a collaborative environment. </p>
 
-## 
+# 2. 팀 소개
+
+Kaztayeva Gulnaz, hulk@marvel.com, 프론트엔드 개발
+
+Yerzhanov Zineden, yerzhanovz1003@gmail.com, 백앤드 개발
