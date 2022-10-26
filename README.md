@@ -28,6 +28,10 @@ Yerzhanov Zineden, yerzhanovz1003@gmail.com, 백앤드 개발
 
 https://user-images.githubusercontent.com/83392181/197980333-8be66f82-935e-4f5b-b579-810328d74bb6.mp4
 
+[![Video Demonstration]          // Title
+([https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)](https://user-images.githubusercontent.com/83392181/197981250-5a2a06cc-4066-440b-81c3-b367dc9b719f.png)] // Thumbnail
+(https://user-images.githubusercontent.com/83392181/197980333-8be66f82-935e-4f5b-b579-810328d74bb6.mp4 "Video Demonstration")  
+
 # 5. 설치 및 사용법
 
 ## Dependencies
