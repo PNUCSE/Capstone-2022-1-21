@@ -26,6 +26,8 @@ Yerzhanov Zineden, yerzhanovz1003@gmail.com, 백앤드 개발
 
 # 4. 소개 및 시연 영상
 
+https://user-images.githubusercontent.com/83392181/197980333-8be66f82-935e-4f5b-b579-810328d74bb6.mp4
+
 # 5. 설치 및 사용법
 
 ## Dependencies
@@ -115,7 +117,3 @@ Alternatively, one could use the website that was made during this graduation pr
 2. Edit the details of database connection info in 'database.php' file
 3. Having done the previous two steps, one can use the website on their localhost server. Alternatively, they can upload it to a server run by CentOS or Linux, as was done during this project.
 4. To install this web application to a server, 'scp' and 'ftp' commands could be of help. 
-
-
-
-To see how the website works, follow the link 
